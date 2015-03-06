@@ -1,0 +1,85 @@
+#main{
+	width: 100%;
+	height: 100%;
+	/*opacity: 0.8;*/
+	background: #000 url("../images/bg.jpg") center center fixed no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	
+	position: absolute;
+	animation-name: newBlur;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-name: newBlur;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-fill-mode: forwards;
+
+	-moz-animation-name: newBlur;
+	-moz-animation-duration: 1s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-fill-mode: forwards;
+}
+@keyframes newBlur{
+	0%{}	
+	100%{filter: blur(5px);}
+}
+@-webkit-keyframes newBlur{
+	0%{}	
+	100%{-webkit-filter: blur(5px);}
+}
+@-moz-keyframes newBlur{
+	0%{}	
+	100%{-moz-filter: blur(5px);}
+}
+
+@keyframes fly{
+	0% {bottom: -300px;}
+	100% {bottom: 300px;}
+}
+@-webkit-keyframes fly{
+	0% {bottom: -300px;}
+	100% {bottom: 300px; }
+}
+@-moz-keyframes fly{
+	0% {bottom: -300px;}
+	100% {bottom: 300px; }
+}
+#fly{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	background-color: #f4bd9d;
+	text-align: center;
+	line-height: 200px;
+	border-radius: 10px;
+	position: fixed;
+	left: 40%;
+	bottom: -300px;
+
+	animation-name: fly;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+
+	-moz-animation-name: fly;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-direction: normal;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-duration: 1s;
+	-moz-animation-fill-mode: forwards;
+
+	-webkit-animation-name: fly;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: forwards;
+}
+#fly h1{
+	font-size: 24px;
+}

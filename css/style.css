@@ -1,0 +1,58 @@
+body{
+	background-color: #EEE;
+}
+h1{
+	font-size: 24px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+p{
+	padding-top: 20px;
+	padding-left: 50px;
+}
+header, nav , aside, footer{
+	display: block;
+}
+header, footer{
+	text-align: center;
+	width: 100%;
+}
+header{
+	background-color: #f2e8d7;
+	height: 200px;
+}
+aside{
+	width: 20%;
+	height: 800px;
+	background-color: #9fd1ff;
+}
+#leftNav{
+	margin-top: 5px;
+	float: left;
+	
+}
+#rightNav{
+	margin-top: 5px;
+	float: right;
+}
+section{
+	margin-top: 5px;
+	width: 60%;
+	height: 800px;
+	background-color: white;
+	float: left;
+
+}
+#clear{
+	clear:both;
+}
+footer{
+	/*position: fixed;*/
+	/*bottom: 0px;*/
+	margin-bottom: 5px;
+	background-color: #bee0ae;
+	height: 40px;
+}
+footer h1{
+	padding-top: 10px;
+}
